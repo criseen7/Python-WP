@@ -97,6 +97,4 @@ UA = "Mozilla/5.0 (compatible; WP-check/1.0)"
 - No verifica que el sitio sea WordPress más allá de que el endpoint responda.
 - Las peticiones son secuenciales. Para listas muy grandes conviene paralelizar con `concurrent.futures`.
 
-## Notas sobre `.gitignore`
 
-El directorio de caché de Python se llama `__pycache__` (no `__pychache__`). El `.gitignore` incluido lo excluye junto con `*.pyc`, entornos virtuales, archivos `.env` y configuraciones de editores. Si tu lista de sitios es privada, descomenta la línea `sitios.txt` para no versionarla.
